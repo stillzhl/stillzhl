@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-labelledby="title desc">
+  <title id="title">Haili Zhang — distributed systems engineer</title>
+  <desc id="desc">A terminal-inspired profile card with a Softwheel ASCII diagram and engineering profile.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#101722"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.52" stop-color="#bc8cff"/>
+      <stop offset="1" stop-color="#39d353"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#010409" flood-opacity=".55"/>
+    </filter>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .muted { fill: #7d8590; }
+      .text { fill: #c9d1d9; }
+      .blue { fill: #58a6ff; }
+      .purple { fill: #bc8cff; }
+      .green { fill: #3fb950; }
+      .amber { fill: #d29922; }
+      .rule { stroke: #30363d; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="1152" height="542" rx="18" fill="url(#panel)" stroke="#30363d" filter="url(#shadow)"/>
+  <circle cx="58" cy="57" r="6" fill="#ff7b72"/>
+  <circle cx="80" cy="57" r="6" fill="#d29922"/>
+  <circle cx="102" cy="57" r="6" fill="#3fb950"/>
+  <text x="128" y="63" class="mono muted" font-size="15">haili@softwheel:~</text>
+  <text x="1128" y="63" text-anchor="end" class="mono muted" font-size="14">PROFILE // ONLINE</text>
+  <line x1="24" y1="84" x2="1176" y2="84" class="rule"/>
+
+  <text x="68" y="122" class="mono green" font-size="15">$ render softwheel --mode=distributed</text>
+
+  <g class="mono" font-size="19" text-anchor="middle">
+    <text x="242" y="162" class="blue">╭───────────────╮</text>
+    <text x="242" y="187" class="blue">╭──────┤ ●     ● ├──────╮</text>
+    <text x="242" y="212" class="blue">●      ╰────┬────╯      ●</text>
+    <text x="242" y="237" class="purple">│ ╲         │         ╱ │</text>
+    <text x="242" y="262" class="purple">│  ╲        │        ╱  │</text>
+    <text x="242" y="287" class="amber">●────╲──────◎──────╱────●</text>
+    <text x="242" y="312" class="purple">│     ╲     │     ╱     │</text>
+    <text x="242" y="337" class="purple">│      ╲    │    ╱      │</text>
+    <text x="242" y="362" class="blue">●      ╭────┴────╮      ●</text>
+    <text x="242" y="387" class="blue">╰──────┤ ●     ● ├──────╯</text>
+    <text x="242" y="412" class="blue">╰───────────────╯</text>
+  </g>
+
+  <text x="242" y="452" text-anchor="middle" class="mono text" font-size="22" font-weight="700" letter-spacing="3">SOFTWHEEL</text>
+  <text x="242" y="479" text-anchor="middle" class="mono muted" font-size="14">learn systems by building the wheel</text>
+
+  <line x1="448" y1="112" x2="448" y2="495" class="rule"/>
+
+  <text x="488" y="132" class="mono text" font-size="30" font-weight="700">Haili Zhang</text>
+  <text x="488" y="161" class="mono blue" font-size="17">Distributed Systems Engineer</text>
+  <line x1="488" y1="184" x2="1128" y2="184" stroke="url(#accent)" stroke-width="2"/>
+
+  <g class="mono" font-size="16">
+    <text x="488" y="222" class="amber">role</text>
+    <text x="626" y="222" class="muted">................................</text>
+    <text x="740" y="222" class="text">Senior Software Engineer @ Microsoft</text>
+
+    <text x="488" y="258" class="amber">focus</text>
+    <text x="626" y="258" class="muted">..............................</text>
+    <text x="740" y="258" class="text">Data infrastructure · Query systems</text>
+
+    <text x="488" y="294" class="amber">scale</text>
+    <text x="626" y="294" class="muted">..............................</text>
+    <text x="740" y="294" class="text">PB-scale analytics · Multi-region</text>
+
+    <text x="488" y="330" class="amber">systems</text>
+    <text x="626" y="330" class="muted">............................</text>
+    <text x="740" y="330" class="text">ClickHouse · Arrow · DataFusion</text>
+
+    <text x="488" y="366" class="amber">languages</text>
+    <text x="626" y="366" class="muted">..........................</text>
+    <text x="740" y="366" class="text">Rust · Zig · Go · C++ · Python</text>
+
+    <text x="488" y="402" class="amber">building</text>
+    <text x="626" y="402" class="muted">...........................</text>
+    <text x="740" y="402" class="text">HomeKV · Softwheel</text>
+
+    <text x="488" y="438" class="amber">location</text>
+    <text x="626" y="438" class="muted">...........................</text>
+    <text x="740" y="438" class="text">Vancouver, Canada</text>
+  </g>
+
+  <line x1="488" y1="464" x2="1128" y2="464" class="rule"/>
+  <text x="488" y="497" class="mono green" font-size="16">$ motto</text>
+  <text x="584" y="497" class="mono text" font-size="16">Rust by daylight · Zig by night</text>
+  <rect x="919" y="483" width="9" height="17" fill="#3fb950">
+    <animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="68" y="535" class="mono muted" font-size="13">strong consistency  •  predictable latency  •  graceful failure</text>
+  <text x="1128" y="535" text-anchor="end" class="mono muted" font-size="13">softwheel.io</text>
+</svg>
