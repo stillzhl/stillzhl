@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/stillzhl/homekv"><img src="https://img.shields.io/badge/HomeKV-distributed_KV-0d1117?style=flat-square&logo=rust&logoColor=d29922" alt="HomeKV"></a>
+  <a href="https://github.com/softwheel/homekv"><img src="https://img.shields.io/badge/HomeKV-distributed_KV-0d1117?style=flat-square&logo=rust&logoColor=d29922" alt="HomeKV"></a>
   <a href="https://softwheel.io"><img src="https://img.shields.io/badge/Softwheel-systems_writing-0d1117?style=flat-square&logo=githubpages&logoColor=58a6ff" alt="Softwheel"></a>
   <img src="https://img.shields.io/badge/Vancouver-Canada-0d1117?style=flat-square&logo=googlemaps&logoColor=3fb950" alt="Vancouver, Canada">
 </p>
 
 ### `> selected_work`
 
-#### [HomeKV](https://github.com/stillzhl/homekv)
+#### [HomeKV](https://github.com/softwheel/homekv)
 
 A Rust key-value store evolving from MVCC toward a strongly consistent, distributed in-memory data plane.
 
